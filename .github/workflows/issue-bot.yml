@@ -11,5 +11,6 @@ jobs:
           title: Hello, world
           body: |-
             :wave: Hi, {{#each assignees}}@{{this}}{{#unless @last}}, {{/unless}}{{/each}}!
-         pinned: true
+          pinned: true
+
     
